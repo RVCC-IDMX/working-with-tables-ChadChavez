@@ -1,3 +1,50 @@
 body {
-  background-color: aliceblue;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.table-container {
+  margin: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+caption {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+thead {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #555;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
